@@ -7,7 +7,9 @@ Các file được để ở thư mục ~/ns-allinone-3.28/ns-3.28/scratch
 - energy-task.cc: các UAV đi tới vị trí tìm được ở file colectdata.cc để xử lý, đồng thời tính năng lượng mà các UAV tiêu tốn.
   
   Chạy file: ./waf --run scratch/energy-task
+  
              gnuplot Energy-2d.plt
+  
   Sau khi chạy xong thì đồ thị năng lượng có thể xem ở file Energy-2d.png tại thư mục ~/ns-allinone-3.28/ns-3.28
 2) File establishconnection.cc, subcribe.cc và MQTT.cc: mô phỏng truyền theo giao thức MQTT
 - establishconnection.cc: thiết lập kết nối giữa client và broker
