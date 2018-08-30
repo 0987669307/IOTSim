@@ -4,7 +4,8 @@ Các file được để ở thư mục ~/ns-allinone-3.28/ns-3.28/scratch
 1) File colectdata.cc và energy-task.cc:
 - colectdata.cc: thu thập dữ liệu nhiệt độ để xác định vùng cháy, tính số UAV cần thiết và tọa độ mà các UAV sẽ đi tới
   Chạy file: ./waf --run scratch/colectdata
-- energy-task.cc: các UAV đi tới vị trí tìm được ở file colectdata.cc để xử lý, đồng thời tính năng lượng mà các UAV tiêu tốn
+- energy-task.cc: các UAV đi tới vị trí tìm được ở file colectdata.cc để xử lý, đồng thời tính năng lượng mà các UAV tiêu tốn.
+  
   Chạy file: ./waf --run scratch/energy-task
              gnuplot Energy-2d.plt
   Sau khi chạy xong thì đồ thị năng lượng có thể xem ở file Energy-2d.png tại thư mục ~/ns-allinone-3.28/ns-3.28
