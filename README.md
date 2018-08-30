@@ -22,10 +22,16 @@ Các file được để ở thư mục ~/ns-allinone-3.28/ns-3.28/scratch
  
   Chạy file: ./waf --run scratch/MQTT              
 3) task.cc: 2 UAV xử lý tác vụ theo mức độ ưu tiên định trước, có phát sinh tác vụ mới, có giúp đỡ nhau xử lý sự kiện
+
 Sau khi chạy file này, ta sẽ sử dụng NetAnim để trực quan hóa quá trình mô phỏng
+
 Chạy file: ./waf --run scratch/task
+
 Sau khi chạy lệnh này, file task.xml sẽ được tạo ra tại thư mục ~/ns-allinone-3.28/ns-3.28, file này được dùng trong NetAnim
+
 Hướng dẫn cài đặt NetAnim các phiên bản tại link: https://www.nsnam.org/wiki/NetAnim
+
 Sau khi cài đặt xong, taị thư mục ~/ns-allinone-3.28/netanim-3.108, mở terminal và gõ lệnh ./NetAnim để mở phần mềm NetAnim.
+
 Load file task.xml ở trên và bấm bắt đầu để chạy mô phỏng
 
