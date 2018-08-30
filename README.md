@@ -13,10 +13,13 @@ Các file được để ở thư mục ~/ns-allinone-3.28/ns-3.28/scratch
   Sau khi chạy xong thì đồ thị năng lượng có thể xem ở file Energy-2d.png tại thư mục ~/ns-allinone-3.28/ns-3.28
 2) File establishconnection.cc, subcribe.cc và MQTT.cc: mô phỏng truyền theo giao thức MQTT
 - establishconnection.cc: thiết lập kết nối giữa client và broker
+  
   Chạy file: ./waf --run/scratch/establishconnection
 - subcribe.cc: client subcribe topic
+  
   Chạy file: ./waf --run scratch/subcribe
 - MQTT.cc: gửi tin theo giao thức MQTT và tính tỉ lệ truyền thành công
+ 
   Chạy file: ./waf --run scratch/MQTT              
 3) task.cc: 2 UAV xử lý tác vụ theo mức độ ưu tiên định trước, có phát sinh tác vụ mới, có giúp đỡ nhau xử lý sự kiện
 Sau khi chạy file này, ta sẽ sử dụng NetAnim để trực quan hóa quá trình mô phỏng
