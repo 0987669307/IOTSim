@@ -36,7 +36,7 @@ Sau khi cài đặt xong, taị thư mục ~/ns-allinone-3.28/netanim-3.108, m�
 Load file task.xml ở trên và bấm bắt đầu để chạy mô phỏng
 
 4) offloading.cc và no-offloading.cc: so sánh có và không có Task OffLoading về thời gian xử lý tác vụ và năng lượng
-- offloading.cc: có Task OffLoading
+- offloading.cc: có Task OffLoading, đưa ra ma trận Traffic data thể hiện 
 
 Chạy file: ./waf --run scratch/offloading
 - no-offloading.cc: không có offloading
