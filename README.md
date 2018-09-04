@@ -34,6 +34,7 @@ Hướng dẫn cài đặt NetAnim các phiên bản tại link: https://www.nsn
 Sau khi cài đặt xong, taị thư mục ~/ns-allinone-3.28/netanim-3.108, mở terminal và gõ lệnh ./NetAnim để mở phần mềm NetAnim.
 
 Load file task.xml ở trên và bấm bắt đầu để chạy mô phỏng
+
 4) offloading.cc và no-offloading.cc: so sánh có và không có Task OffLoading về thời gian xử lý tác vụ và năng lượng
 - offloading.cc: có Task OffLoading
 Chạy file: ./waf --run scratch/offloading
